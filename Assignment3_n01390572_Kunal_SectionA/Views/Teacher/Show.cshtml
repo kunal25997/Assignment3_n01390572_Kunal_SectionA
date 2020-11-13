@@ -1,0 +1,12 @@
+﻿@model Assignment3_n01390572_Kunal_SectionA.Models.Teacher
+@{
+    ViewBag.Title = "Show";
+}
+
+<a class="navlink" href="/Teacher/List">Back To Teachers</a>
+<div id="containershow">
+    <h2>@Model.TeacherFname @Model.TeacherLname</h2>
+    <p><em><strong>Employee Number:-</strong></em>@Model.employeenumber</p> 
+    <p><em><strong>Hire Date:-</strong></em>@Model.hiredate</p> 
+    <p><em><strong>Salary:-</strong>Salary:</em>@Model.TeacherSalary</p>
+</div>
